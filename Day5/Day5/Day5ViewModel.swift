@@ -38,11 +38,11 @@ import RealityKit
         material6.color = .init(texture: .init(texture6))
 
         entity.components.set(ModelComponent(
-            mesh: .generateBox(width: 0.5, height: 0.5, depth: 0.5),
+            mesh: .generateBox(width: 0.5, height: 0.5, depth: 0.5, splitFaces: true),
             materials: [material1, material2, material3, material4, material5, material6])
         )
 
-        entity.position = SIMD3(x: 0, y: 2, z: -2)
+        entity.position = SIMD3(x: 0, y: 1, z: -2)
 
         contentEntity.addChild(entity)
     }
