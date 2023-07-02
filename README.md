@@ -9,3 +9,4 @@ Twitter: [#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_vis
 | 2 | Show teapot | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/1e6cf607-5507-4b13-aa98-adc4b066e244"> |
 | 3 | Play HLS video | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/037d962b-e604-4e00-999d-e3c0110f840c"> |
 | 4 | Place box | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/e0bd40b3-8393-420f-a74b-656600ff4116"> |
+| 5 | Textured box | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/99e08f4a-b5d3-4d72-9a6d-eccbb3434e3f"> |
