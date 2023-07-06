@@ -1,8 +1,9 @@
 # visionOS_30Days
 visionOS 30 days challenge.
 
-Twitter: [#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_visionos)
-Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
+Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS) 
+
+old tag :[#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_visionos)
 
 | Day | Title | Summary |
 |:--|:--|:--|
