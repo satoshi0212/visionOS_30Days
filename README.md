@@ -13,3 +13,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 5 | Textured box | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/918a6fbf-5dff-4a3d-bf25-c02b85b636f8"> |
 | 6 | Handle drag and tap | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/85962e7f-69b1-4c3b-b791-f3e39c7ab6d7"> |
 | 7 | Post to Slack | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/3bd24016-2b92-453d-9a52-40cb309f198f"> |
+| 8 | Attachment and animation | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/c2801c72-74ac-4462-ada4-2ec17d10df5b"> |
