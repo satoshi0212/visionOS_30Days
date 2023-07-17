@@ -22,3 +22,4 @@ old tag :[#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_vis
 | 13 | Place axis | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f1312f0e-0907-464d-9b39-ef24d72c37bd"> |
 | 14 | Progressive and Full view | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/e622df6d-9dfe-4ede-bf8e-791b18c8ec63"> |
 | 15 | TabView | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/33171b51-9768-4398-a88a-0c256e37e01e"> |
+| 16 | ARKitSession Placement | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/73cb93e0-3d25-4a86-add2-98379eb5b2c8"> |
