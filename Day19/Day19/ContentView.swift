@@ -11,7 +11,7 @@ struct ContentView: View {
                 Toggle(isOn: $isRecording) {
                     Text(isRecording ? "Stop Recognition" : "Start Recognition")
                 }
-                .toggleStyle(.button)
+                .toggleStyle(RecordToggleStyle())
             }
         }
         .onChange(of: isRecording) { _, newValue in
@@ -40,4 +40,17 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+}
+
+struct RecordToggleStyle: ToggleStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        Button {
+            configuration.isOn.toggle()
+        } label: {
+            HStack {
+                Image(systemName: configuration.isOn ? "waveform.circle.fill" : "waveform.circle")
+                configuration.label
+            }
+        }
+    }
 }
