@@ -3,8 +3,6 @@ visionOS 30 days challenge.
 
 Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS) 
 
-old tag :[#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_visionos)
-
 | Day | Title | Summary |
 |:--|:--|:--|
 | 1 | Hello visionOS | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/bb525528-a33d-4755-a7df-a55b90057ce3"> |
@@ -25,3 +23,4 @@ old tag :[#thirty_days_visionos](https://twitter.com/search?q=%23thirty_days_vis
 | 16 | ARKitSession Placement | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/73cb93e0-3d25-4a86-add2-98379eb5b2c8"> |
 | 17 | Ornament | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/71951b7e-7367-449e-8649-d50a8a57b157"> |
 | 18 | 3D Text | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/37325e66-ce6e-498c-856a-5eab6e313687"> |
+| 19 | Speech Recognition | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/61fd7c05-ab67-4391-83a7-2c03e50e9a57"> |
