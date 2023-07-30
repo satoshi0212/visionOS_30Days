@@ -25,3 +25,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 18 | 3D Text | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/37325e66-ce6e-498c-856a-5eab6e313687"> |
 | 19 | Speech Recognition | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/61fd7c05-ab67-4391-83a7-2c03e50e9a57"> |
 | 20 | Slack just fetch | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/23dab4b7-2661-4786-a0c3-13936bddca83"> |
+| 21 | Immersive look around | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/db0c6e64-6fa1-433a-9bf0-d1661a233531"> |
