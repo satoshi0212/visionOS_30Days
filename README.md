@@ -27,3 +27,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 20 | Slack just fetch | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/23dab4b7-2661-4786-a0c3-13936bddca83"> |
 | 21 | Immersive look around | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/db0c6e64-6fa1-433a-9bf0-d1661a233531"> |
 | 22 | Immersive look around refined | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/13b558d6-55eb-4aaf-b16d-963aaabc18c5"> |
+| 23 | In-room Slack Viewer | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/80289c0d-5951-472e-9c26-2995ebfe9217"> |
