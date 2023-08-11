@@ -8,7 +8,7 @@ class ViewModel {
 
     var leftListItems = ["カリム・ベンゼマ / Karim Benzema",
                          "エンゴロ・カンテ / N'Golo Kanté",
-                         "ロベルト・フィルミーノ /Roberto Firmino",
+                         "ロベルト・フィルミーノ / Roberto Firmino",
                          "リヤド・マフレズ / Riyad Mahrez"]
     var rightListItems = ["クリスティアーノ・ロナウド / Cristiano Ronaldo"]
 
