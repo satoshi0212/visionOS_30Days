@@ -30,3 +30,5 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 23 | In-room Slack Viewer | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/80289c0d-5951-472e-9c26-2995ebfe9217"> |
 | 24 | Immersive 360 video | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/b421cf6d-6afe-4171-a1f6-c23a6de11844"> |
 | 25 | Drag and drop | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/e2860230-3e04-4568-99a5-8da4ff63444c"> |
+| 26 | SwiftUI Shader | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/b495a659-1294-4793-99a9-15bc0da5abb2"> |
+
