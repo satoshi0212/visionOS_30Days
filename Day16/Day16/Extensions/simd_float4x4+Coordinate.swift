@@ -1,6 +1,4 @@
 import SwiftUI
-//import RealityKit
-//import Observation
 
 extension simd_float4x4 {
 
@@ -24,7 +22,7 @@ extension simd_float4x4 {
                              self.columns.0.y * self.columns.1.x * self.columns.2.z -
                              self.columns.0.x * self.columns.1.z * self.columns.2.y)
 
-        let rotationMatrix = simd_float3x3(x / scaleX, y / scaleY, z / scaleZ)
+        let rotationMatrix = simd_float3x3(x/scaleX, y/scaleY, z/scaleZ)
         let quaternion = simd_quaternion(rotationMatrix)
 
         return sign >= 0 ? quaternion : -quaternion

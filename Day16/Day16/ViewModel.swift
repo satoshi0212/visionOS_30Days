@@ -6,7 +6,8 @@ import Observation
 class ViewModel {
 
     private var contentEntity = Entity()
-    private let placeOffset: SIMD3<Float> = .init(x: 0.0, y: 1.8, z: -0.5)
+//    private let placeOffset: SIMD3<Float> = .init(x: 0.0, y: 1.8, z: -0.5)
+    private let placeOffset: SIMD3<Float> = .init(x: 0.0, y: 0.0, z: 0.0)
 
     func setupContentEntity() -> Entity {
         contentEntity.components.set(InputTargetComponent(allowedInputTypes: .indirect))
