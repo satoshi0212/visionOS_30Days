@@ -33,3 +33,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 26 | SwiftUI Shader | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/b495a659-1294-4793-99a9-15bc0da5abb2"> |
 | 27 | SwiftUI View in ImmersiveSpace | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/4f304317-c697-4553-8006-b063fd2e9db1"> |
 | 28 | SwiftUI View in ImmersiveSpace refined| <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/3c40bffb-9dab-4d7e-8bf5-0271d5c15080"> |
+| 29 | Debug Log View | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5ed26360-0ffc-445a-ab06-aa40ee62fe06"> |
