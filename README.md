@@ -1,7 +1,7 @@
 # visionOS_30Days
 visionOS 30 days challenge.
 
-Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS) 
+Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS?f=live) 
 
 | Day | Title | Summary |
 |:--|:--|:--|
@@ -34,3 +34,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS)
 | 27 | SwiftUI View in ImmersiveSpace | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/4f304317-c697-4553-8006-b063fd2e9db1"> |
 | 28 | SwiftUI View in ImmersiveSpace refined| <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/3c40bffb-9dab-4d7e-8bf5-0271d5c15080"> |
 | 29 | Debug Log View | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5ed26360-0ffc-445a-ab06-aa40ee62fe06"> |
+| 30 | Action firing by HLS metadata | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/d107e192-126c-4903-b624-7ab08bf68fc1"> |
