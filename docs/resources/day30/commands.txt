@@ -1,0 +1,7 @@
+id3taggenerator -o 0sec.id3 -t "c_reset"
+id3taggenerator -o 5sec.id3 -t "c_dark"
+id3taggenerator -o 10sec.id3 -t "c_fireworks"
+id3taggenerator -o 18sec.id3 -t "c_light"
+id3taggenerator -o 19sec.id3 -t "c_reset"
+
+mediafilesegmenter -f ./output/ -i index.m3u8 -B media- -t 1 -meta-macro-file ./macro.txt  ./Countdown.mov

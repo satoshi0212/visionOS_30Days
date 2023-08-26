@@ -1,0 +1,5 @@
+0 id3 ./0sec.id3
+5 id3 ./5sec.id3
+10 id3 ./10sec.id3
+18 id3 ./18sec.id3
+19 id3 ./19sec.id3
