@@ -1,8 +1,7 @@
-import SwiftUI
 import RealityKit
+import SwiftUI
 
 struct ImmersiveView: View {
-
     @State var model = Day8ViewModel()
     @State var cube1 = ModelEntity()
     @State var cube2 = ModelEntity()
@@ -24,13 +23,14 @@ struct ImmersiveView: View {
                 cube2.addChild(attachment)
             }
         } attachments: {
-            Text("Cube1")
-                .font(.system(size: 48))
-                .tag("cube1_label")
-
-            Text("Cube2")
-                .font(.system(size: 48))
-                .tag("cube2_label")
+            Attachment(id: "cube1_label") {
+                Text("Cube1")
+                    .font(.system(size: 48))
+            }
+            Attachment(id: "cube2_label") {
+                Text("Cube2")
+                    .font(.system(size: 48))
+            }
         }
         .gesture(
             SpatialTapGesture()
