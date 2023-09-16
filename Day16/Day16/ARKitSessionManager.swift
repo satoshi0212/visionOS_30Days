@@ -36,7 +36,7 @@ class ARKitSessionManager: ObservableObject {
     }
 
     func reportDevicePose() {
-        if let pose = worldTracking.queryPose(atTimestamp: CACurrentMediaTime()) {
+        if let pose = worldTracking.queryDeviceAnchor(atTimestamp: CACurrentMediaTime()) {
             print("pose: \(pose)")
         } else {
             print("pose: nil")
@@ -44,9 +44,9 @@ class ARKitSessionManager: ObservableObject {
     }
 
     func getOriginFromDeviceTransform() -> simd_float4x4 {
-        guard let pose = worldTracking.queryPose(atTimestamp: CACurrentMediaTime()) else {
+        guard let pose = worldTracking.queryDeviceAnchor(atTimestamp: CACurrentMediaTime()) else {
             return simd_float4x4()
         }
-        return pose.originFromDeviceTransform
+        return pose.originFromAnchorTransform
     }
 }
