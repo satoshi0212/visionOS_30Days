@@ -23,8 +23,9 @@ struct ImmersiveView: View {
             }
         } attachments: {
             ForEach(timerViews) { timerView in
-                timerView
-                    .tag(timerView.id)
+                Attachment(id: timerView.id) {
+                    timerView
+                }
             }
         }
         .task {
