@@ -40,8 +40,9 @@ struct ImmersiveView: View {
         } update: { content, attachments in
 
         } attachments: {
-            logView
-                .tag(logView.id)
+            Attachment(id: logView.id) {
+                logView
+            }
         }
         .task {
             await arkitSessionManager.startSession()
