@@ -10,7 +10,7 @@ struct ImmersiveView: View {
             content.add(model.setupContentEntity())
         }
         .onTapGesture {
-            model.toggleSotred()
+            model.toggleSorted()
         }
     }
 }
