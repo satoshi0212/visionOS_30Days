@@ -1,8 +1,6 @@
 import Foundation
-import Combine
 import GroupActivities
 import CoreTransferable
-import UIKit
 
 struct VideoWatchingActivity: GroupActivity, Transferable {
 
