@@ -49,8 +49,6 @@ import ARKit
                     print("Anchor position updated.")
                 case .removed:
                     print("Anchor position now unknown.")
-                @unknown default:
-                    break
                 }
             }
         }

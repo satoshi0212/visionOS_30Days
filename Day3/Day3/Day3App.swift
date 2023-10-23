@@ -1,5 +1,4 @@
 import SwiftUI
-import os
 
 @main
 struct Day3App: App {

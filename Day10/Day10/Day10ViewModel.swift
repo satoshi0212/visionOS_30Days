@@ -1,7 +1,5 @@
 import SwiftUI
 import RealityKit
-import Observation
-import Foundation
 
 @Observable
 class Day10ViewModel {
@@ -27,7 +25,7 @@ class Day10ViewModel {
         return contentEntity
     }
 
-    func toggleSotred() {
+    func toggleSorted() {
         if sorted {
             sorted.toggle()
             randomSetChildPositions()

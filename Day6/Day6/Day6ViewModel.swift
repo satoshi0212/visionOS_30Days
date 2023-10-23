@@ -1,6 +1,5 @@
 import SwiftUI
 import RealityKit
-import Observation
 
 @Observable
 class Day6ViewModel {
