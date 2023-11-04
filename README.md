@@ -36,3 +36,4 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS?f=live
 | 29 | [Debug Log View](https://twitter.com/shmdevelop/status/1693981575728517408?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5ed26360-0ffc-445a-ab06-aa40ee62fe06"> |
 | 30 | [Action firing by HLS metadata](https://twitter.com/shmdevelop/status/1695489467149352984) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/d107e192-126c-4903-b624-7ab08bf68fc1"> |
 | 31 | [Trimming and exporting media](https://x.com/shmdevelop/status/1716416985448522065) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5bf505d4-8732-4304-8bb2-0afcc188b029"> |
+| 32 | [Mario Jump](https://x.com/shmdevelop/status/1720760513255399596?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f169269d-b2f9-452f-8d0c-6937d60b5dbb"> |
