@@ -47,7 +47,7 @@ class ViewModel {
             snapshotImage = try await fetchImage(panoId: placeInfo.panoId)
 
             guard let cgImage = snapshotImage.cgImage else { return }
-            guard let texture = try? TextureResource.generate(from: cgImage, options: TextureResource.CreateOptions.init(semantic: nil)) else { return }
+            guard let texture = try? await TextureResource.generate(from: cgImage, options: TextureResource.CreateOptions.init(semantic: nil)) else { return }
 
             var material = modelEntity?.model?.materials[0] as! UnlitMaterial
             material.color = .init(texture: MaterialParameters.Texture(texture))
