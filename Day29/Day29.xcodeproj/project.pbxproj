@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E3741922B203074008FF9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8EF9551D2A92979E009CE3F3 /* Day29.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day29.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF955242A92979E009CE3F3 /* Day29App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day29App.swift; sourceTree = "<group>"; };
 		8EF955262A92979E009CE3F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		8EF9551F2A92979E009CE3F3 /* Day29 */ = {
 			isa = PBXGroup;
 			children = (
+				8E3741922B203074008FF9A4 /* Info.plist */,
 				8EF955372A93906C009CE3F3 /* Extensions */,
 				8EF9553F2A94ED5B009CE3F3 /* Views */,
 				8EF955242A92979E009CE3F3 /* Day29App.swift */,
@@ -303,6 +305,9 @@
 				DEVELOPMENT_TEAM = 247V527KAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day29/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,6 +332,9 @@
 				DEVELOPMENT_TEAM = 247V527KAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day29/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -29,6 +29,7 @@
 		8E010EDF2A91F4CA0015E491 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		8E010EE22A9262F90015E491 /* ARKitSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSessionManager.swift; sourceTree = "<group>"; };
 		8E010EE52A9269B80015E491 /* simd_float4x4+Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simd_float4x4+Coordinate.swift"; sourceTree = "<group>"; };
+		8E3741912B202D06008FF9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		8E010EAC2A9157500015E491 /* Day28 */ = {
 			isa = PBXGroup;
 			children = (
+				8E3741912B202D06008FF9A4 /* Info.plist */,
 				8E010EE42A9269B80015E491 /* Extensions */,
 				8E010EE12A91F7810015E491 /* View */,
 				8E010EB12A9157500015E491 /* Day28App.swift */,
@@ -304,6 +306,9 @@
 				DEVELOPMENT_TEAM = 247V527KAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day28/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,6 +334,9 @@
 				DEVELOPMENT_TEAM = 247V527KAQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Day28/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

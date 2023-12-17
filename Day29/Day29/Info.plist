@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSWorldSensingUsageDescription</key>
+	<string>The app requires this so you can place virtual cubes in your surroundings.</string>
+	<key>NSHandsTrackingUsageDescription</key>
+	<string>The app requires this so your hands can interact with the cubes placed in your environment.</string>
+</dict>
+</plist>
