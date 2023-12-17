@@ -20,11 +20,14 @@ class PlaneDetectionModel {
     }
 
     func runSession() async {
+        guard PlaneDetectionProvider.isSupported else {
+            print("PlaneDetectionProvider is NOT supported.")
+            return
+        }
+
         do {
-            if PlaneDetectionProvider.isSupported {
-                try await session.run([planeDetectionProvider])
-                print("[\(type(of: self))] [\(#function)] session.run")
-            }
+            try await session.run([planeDetectionProvider])
+            print("[\(type(of: self))] [\(#function)] session.run")
         } catch {
             print(error)
         }
@@ -74,10 +77,21 @@ class PlaneDetectionModel {
     // MARK: - Private
 
     private func updatePlane(_ anchor: PlaneAnchor) {
-        if entityMap[anchor.id] == nil {
+
+        if let entity = entityMap[anchor.id] {
+            let planeEntity = entity.findEntity(named: "plane") as! ModelEntity
+            planeEntity.model!.mesh = MeshResource.generatePlane(width: anchor.geometry.extent.width, height: anchor.geometry.extent.height)
+            planeEntity.transform = Transform(matrix: anchor.geometry.extent.anchorFromExtentTransform)
+        } else {
+            let entity = Entity()
+
             // Add a new entity to represent this plane.
             let material = UnlitMaterial(color: anchor.classification.color)
-            let entity = ModelEntity(mesh: .generatePlane(width: anchor.geometry.extent.width, depth: anchor.geometry.extent.height), materials: [material])
+            let planeEntity = ModelEntity(mesh: .generatePlane(width: anchor.geometry.extent.width, depth: anchor.geometry.extent.height), materials: [material])
+            planeEntity.name = "plane"
+            planeEntity.transform = Transform(matrix: anchor.geometry.extent.anchorFromExtentTransform)
+            entity.addChild(planeEntity)
+
             entityMap[anchor.id] = entity
             contentEntity.addChild(entity)
         }
