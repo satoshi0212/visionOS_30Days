@@ -4,7 +4,7 @@ import ARKit
 
 struct ImmersiveView: View {
 
-    @State var model = ViewModel()
+    @Environment(ViewModel.self) private var model
 
     @ObservedObject var arkitSessionManager = ARKitSessionManager()
     @State var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -33,10 +33,18 @@ struct ImmersiveView: View {
                     model.addAxis(matrix: matrix)
                 }
         )
+        .gesture(
+            LongPressGesture(minimumDuration: 1.0)
+                .targetedToAnyEntity()
+                .onEnded { _ in
+                    model.showImmersiveSpace.toggle()
+                }
+        )
     }
 }
 
 #Preview {
     ImmersiveView()
+        .environment(ViewModel())
         .previewLayout(.sizeThatFits)
 }

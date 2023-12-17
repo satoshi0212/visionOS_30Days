@@ -2,17 +2,20 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State var showImmersiveSpace = false
+    @Environment(ViewModel.self) private var model
 
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
+
+        @Bindable var model = model
+
         NavigationStack {
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+            Toggle(model.showImmersiveSpace ? "LongPress to Dismiss" : "Show ImmersiveSpace", isOn: $model.showImmersiveSpace)
                 .toggleStyle(.button)
         }
-        .onChange(of: showImmersiveSpace) { _, newValue in
+        .onChange(of: model.showImmersiveSpace) { _, newValue in
             Task {
                 if newValue {
                     await openImmersiveSpace(id: "ImmersiveSpace")
@@ -26,4 +29,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environment(ViewModel())
 }
