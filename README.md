@@ -4,7 +4,7 @@ visionOS 30 days challenge.
 Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS?f=live) 
 
 | Day | Title | - |
-|:--|:--|:--|
+|:--|:--|:--:|
 | 1 | [Hello visionOS](https://twitter.com/shmdevelop/status/1672799272113242116?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/bb525528-a33d-4755-a7df-a55b90057ce3"> |
 | 2 | [Show teapot](https://twitter.com/shmdevelop/status/1673172377935679488?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/1e6cf607-5507-4b13-aa98-adc4b066e244"> |
 | 3 | [Play HLS video](https://twitter.com/shmdevelop/status/1673937080106512384?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/037d962b-e604-4e00-999d-e3c0110f840c"> |
@@ -42,5 +42,6 @@ Extends
 |:--|:--|:--|
 | 31 | [Trimming and exporting media](https://x.com/shmdevelop/status/1716416985448522065) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5bf505d4-8732-4304-8bb2-0afcc188b029"> |
 | 32 | [Mario Jump](https://x.com/shmdevelop/status/1720760513255399596?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f169269d-b2f9-452f-8d0c-6937d60b5dbb"> |
-| 33 | [Plane Cliassifications](https://x.com/shmdevelop/status/1721499829698998731?s=20) | _ |
-| 34 | [Image Tracking](https://x.com/shmdevelop/status/1721877304589390073?s=20) | _ |
+| 33 | [Plane Cliassifications](https://x.com/shmdevelop/status/1721499829698998731?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
+| 34 | [Image Tracking](https://x.com/shmdevelop/status/1721877304589390073?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
+| 35 | CAMetalLayer | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
