@@ -39,9 +39,10 @@ Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS?f=live
 Extends
 
 | Day | Title | - |
-|:--|:--|:--|
+|:--|:--|:--:|
 | 31 | [Trimming and exporting media](https://x.com/shmdevelop/status/1716416985448522065) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5bf505d4-8732-4304-8bb2-0afcc188b029"> |
 | 32 | [Mario Jump](https://x.com/shmdevelop/status/1720760513255399596?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f169269d-b2f9-452f-8d0c-6937d60b5dbb"> |
 | 33 | [Plane Cliassifications](https://x.com/shmdevelop/status/1721499829698998731?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
 | 34 | [Image Tracking](https://x.com/shmdevelop/status/1721877304589390073?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
-| 35 | CAMetalLayer | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
+| 35 | [CAMetalLayer](https://x.com/shmdevelop/status/1739118780440289566?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
+| 36 | [Metal Shader and Transparency](https://x.com/shmdevelop/status/1739805794915250608?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/81349c18-bfbd-4baf-a849-4bb1b9925f96"> |
