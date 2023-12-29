@@ -1,7 +1,12 @@
-# visionOS_30Days
-visionOS 30 days challenge.
+[Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
 
-Twitter: [#30_days_visionOS](https://twitter.com/hashtag/30_days_visionOS?f=live) 
+# visionOS_30Days
+30 days of visionOS challenge.
+
+I took on the challenge of implementing diverse visionOS features.
+
+X posts: [#30_days_visionOS](https://x.com/hashtag/30_days_visionOS?f=live) 
+
 
 | Day | Title | - |
 |:--|:--|:--:|
