@@ -12,7 +12,7 @@ struct ContentView: View {
         }
         .ornament(
             visibility: .visible,
-            attachmentAnchor: .scene(alignment: .bottom)
+            attachmentAnchor: .scene(.bottom)
         ) {
             BottomControls(viewModel: viewModel)
         }
