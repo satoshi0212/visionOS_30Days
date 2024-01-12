@@ -3,41 +3,33 @@ import RealityKit
 
 struct ContentView: View {
 
-    var viewModel: ViewModel
-
-    @State private var showImmersiveSpace = false
-    @State private var immersiveSpaceIsShown = false
+    @Environment(ViewModel.self) private var viewModel
 
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
+
+        @Bindable var viewModel = viewModel
+
         VStack {
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+            Toggle(viewModel.showImmersiveSpace ? "LongPress to back" : "Show ImmersiveSpace", isOn: $viewModel.showImmersiveSpace)
                 .toggleStyle(.button)
         }
         .padding()
-        .onChange(of: showImmersiveSpace) { _, newValue in
+        .onChange(of: viewModel.showImmersiveSpace) { _, newValue in
             Task {
                 if newValue {
-                    switch await openImmersiveSpace(id: "ImmersiveSpace") {
-                    case .opened:
-                        immersiveSpaceIsShown = true
-                    case .error, .userCancelled:
-                        fallthrough
-                    @unknown default:
-                        immersiveSpaceIsShown = false
-                        showImmersiveSpace = false
-                    }
-                } else if immersiveSpaceIsShown {
+                    await openImmersiveSpace(id: "ImmersiveSpace")
+                } else {
                     await dismissImmersiveSpace()
-                    immersiveSpaceIsShown = false
                 }
             }
         }
     }
 }
 
-#Preview(windowStyle: .automatic) {
-    ContentView(viewModel: ViewModel())
+#Preview {
+    ContentView()
+        .environment(ViewModel())
 }

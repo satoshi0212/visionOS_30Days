@@ -7,12 +7,14 @@ struct Day28App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: viewModel)
+            ContentView()
+                .environment(viewModel)
         }
         .defaultSize(width: windowTargetSize.width, height: windowTargetSize.height)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView(viewModel: viewModel)
+            ImmersiveView()
+                .environment(viewModel)
         }
     }
 }

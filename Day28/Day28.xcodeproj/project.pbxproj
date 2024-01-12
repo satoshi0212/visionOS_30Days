@@ -63,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				8E3741912B202D06008FF9A4 /* Info.plist */,
-				8E010EE42A9269B80015E491 /* Extensions */,
-				8E010EE12A91F7810015E491 /* View */,
 				8E010EB12A9157500015E491 /* Day28App.swift */,
 				8E010EDD2A9176190015E491 /* Constants.swift */,
+				8E010EE42A9269B80015E491 /* Extensions */,
+				8E010EE12A91F7810015E491 /* View */,
 				8E010EDB2A91677F0015E491 /* ViewModel.swift */,
 				8E010EE22A9262F90015E491 /* ARKitSessionManager.swift */,
 				8E010EB72A9157530015E491 /* Assets.xcassets */,

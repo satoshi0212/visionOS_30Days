@@ -76,15 +76,4 @@ class ARKitSessionManager: ObservableObject {
         }
         return pose.originFromAnchorTransform
     }
-
-//    func lookAtCamera(entity: Entity) {
-//        guard let pose = worldTrackingProvider.queryPose(atTimestamp: CACurrentMediaTime()) else { return }
-//        let cameraTransform = Transform(matrix: pose.originFromDeviceTransform)
-//        let translation = entity.transform.translation
-//        entity.look(at: cameraTransform.translation,
-//                    from: entity.position(relativeTo: nil),
-//                    relativeTo: nil,
-//                    forward: .positiveZ)
-//        entity.transform.translation = translation
-//    }
 }

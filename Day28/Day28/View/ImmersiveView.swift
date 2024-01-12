@@ -4,8 +4,8 @@ import ARKit
 
 struct ImmersiveView: View {
 
-    var viewModel: ViewModel
-    
+    @Environment(ViewModel.self) private var viewModel
+
     @ObservedObject var arkitSessionManager = ARKitSessionManager()
     @State private var timerViews: [TimerView] = []
 
@@ -31,26 +31,29 @@ struct ImmersiveView: View {
         .task {
             await arkitSessionManager.startSession()
         }
-        .onDisappear {
-            arkitSessionManager.stopSession()
-        }
         .gesture(
             SpatialTapGesture(count: 2)
                 .targetedToAnyEntity()
                 .onEnded { value in
                     let timerView = TimerView()
                     timerViews.append(timerView)
-
-                    let entity = viewModel.addNull(name: timerView.id.uuidString, value: nil)
+                    let entity = viewModel.addSpatialPlaceholder(name: timerView.id.uuidString, value: nil)
                     let matrix = arkitSessionManager.getOriginFromDeviceTransform()
-                    entity.position = matrix.position
-                    entity.orientation = matrix.rotation
+                    viewModel.setEntityPosition(entity: entity, matrix: matrix)
+                }
+        )
+        .gesture(
+            LongPressGesture(minimumDuration: 1.0)
+                .targetedToAnyEntity()
+                .onEnded { _ in
+                    viewModel.showImmersiveSpace.toggle()
                 }
         )
     }
 }
 
 #Preview {
-    ImmersiveView(viewModel: ViewModel())
+    ImmersiveView()
+        .environment(ViewModel())
         .previewLayout(.sizeThatFits)
 }

@@ -5,6 +5,8 @@ import Observation
 @Observable
 class ViewModel {
 
+    var showImmersiveSpace = false
+
     private var contentEntity = Entity()
 
     func setupContentEntity() -> Entity {
@@ -17,7 +19,7 @@ class ViewModel {
         return contentEntity.children.first { $0.name == name}
     }
 
-    func addNull(name: String, value: EntityTargetValue<SpatialTapGesture.Value>?) -> ModelEntity {
+    func addSpatialPlaceholder(name: String, value: EntityTargetValue<SpatialTapGesture.Value>?) -> ModelEntity {
         let entity = ModelEntity(
             mesh: .generatePlane(width: 0, depth: 0),
             materials: [SimpleMaterial(color: .white, isMetallic: false)],
@@ -35,5 +37,19 @@ class ViewModel {
         contentEntity.addChild(entity)
 
         return entity
+    }
+
+    func setEntityPosition(entity: ModelEntity, matrix: simd_float4x4) {
+        let forward = simd_float3(0, 0, -1)
+        let cameraForward = simd_act(matrix.rotation, forward)
+
+        let front = SIMD3<Float>(x: cameraForward.x, y: cameraForward.y, z: cameraForward.z)
+        let length: Float = 0.5
+        let offset = length * simd_normalize(front)
+
+        let position = SIMD3<Float>(x: matrix.position.x, y: matrix.position.y, z: matrix.position.z)
+
+        entity.position = position + offset
+        entity.orientation = matrix.rotation
     }
 }
