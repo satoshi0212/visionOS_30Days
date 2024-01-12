@@ -14,6 +14,7 @@ struct ContentView: View {
                         strength = effectEnabled ? 10 : 0
                     }
             )
+            // Not currently working
             .layerEffect(ShaderLibrary.pixellate(.float(strength)), maxSampleOffset: .zero)
     }
 }
