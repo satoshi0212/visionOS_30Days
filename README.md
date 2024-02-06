@@ -52,3 +52,12 @@ Extends
 | 35 | [CAMetalLayer](https://x.com/shmdevelop/status/1739118780440289566?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
 | 36 | [Metal Shader and Transparency](https://x.com/shmdevelop/status/1739805794915250608?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/81349c18-bfbd-4baf-a849-4bb1b9925f96"> |
 | 37 | [Multipeer Connectivity](https://x.com/shmdevelop/status/1746875646578409657?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f9b6a908-4029-4292-805e-e114cb24016c"> |
+
+# Sponsors
+
+Thanks!
+- https://github.com/ta-ka-tsu
+- https://github.com/AkkeyLab
+- https://github.com/truedat101
+
+[Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
