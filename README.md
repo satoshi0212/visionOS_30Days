@@ -1,9 +1,13 @@
-[Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
+Your support is greatly appreciated! :+1:
+
+If this source code is helpful, please support me by [sponsoring this repo!](https://github.com/sponsors/satoshi0212)
 
 # visionOS_30Days
 30 days of visionOS challenge.
 
 I took on the challenge of implementing diverse visionOS features.
+
+I'm submitting more for excess content.
 
 X posts: [#30_days_visionOS](https://x.com/hashtag/30_days_visionOS?f=live) 
 
@@ -52,6 +56,7 @@ Extends
 | 35 | [CAMetalLayer](https://x.com/shmdevelop/status/1739118780440289566?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
 | 36 | [Metal Shader and Transparency](https://x.com/shmdevelop/status/1739805794915250608?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/81349c18-bfbd-4baf-a849-4bb1b9925f96"> |
 | 37 | [Multipeer Connectivity](https://x.com/shmdevelop/status/1746875646578409657?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f9b6a908-4029-4292-805e-e114cb24016c"> |
+| 38 | [World Anchor](https://x.com/shmdevelop/status/1763361007345578332?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/8cd8544f-3cc2-4d33-8a50-2d72123982ab"> |
 
 # Sponsors
 
@@ -59,5 +64,6 @@ Thanks!
 - https://github.com/ta-ka-tsu
 - https://github.com/AkkeyLab
 - https://github.com/truedat101
+- https://github.com/Takuzen
 
 [Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
