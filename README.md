@@ -51,12 +51,13 @@ Extends
 |:--|:--|:--:|
 | 31 | [Trimming and exporting media](https://x.com/shmdevelop/status/1716416985448522065) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/5bf505d4-8732-4304-8bb2-0afcc188b029"> |
 | 32 | [Mario Jump](https://x.com/shmdevelop/status/1720760513255399596?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f169269d-b2f9-452f-8d0c-6937d60b5dbb"> |
-| 33 | [Plane Cliassifications](https://x.com/shmdevelop/status/1721499829698998731?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
-| 34 | [Image Tracking](https://x.com/shmdevelop/status/1721877304589390073?s=20) | <img width="400" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/2c50cb34-e1b7-4a54-9f1d-01b1e2cc328c"> |
+| 33 | [Plane Cliassifications](https://x.com/shmdevelop/status/1721499829698998731?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/923b80cc-9d7c-47c3-8240-6ec2063801ac"> |
+| 34 | [Image Tracking](https://x.com/shmdevelop/status/1721877304589390073?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/c7aae90b-b2e9-43eb-9fbd-8fe823e8eb3b"> |
 | 35 | [CAMetalLayer](https://x.com/shmdevelop/status/1739118780440289566?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/af7e756d-18c8-448f-9ab8-d01c7cb03568"> |
 | 36 | [Metal Shader and Transparency](https://x.com/shmdevelop/status/1739805794915250608?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/81349c18-bfbd-4baf-a849-4bb1b9925f96"> |
 | 37 | [Multipeer Connectivity](https://x.com/shmdevelop/status/1746875646578409657?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f9b6a908-4029-4292-805e-e114cb24016c"> |
 | 38 | [World Anchor](https://x.com/shmdevelop/status/1763361007345578332?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/8cd8544f-3cc2-4d33-8a50-2d72123982ab"> |
+| 39 | [Scene Mesh](https://x.com/shmdevelop/status/1784159361293832442) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/83cb1794-c4e6-40fa-8d16-4d50f4d4f41f"> |
 
 # Sponsors
 
@@ -65,5 +66,8 @@ Thanks!
 - https://github.com/AkkeyLab
 - https://github.com/truedat101
 - https://github.com/Takuzen
+- https://github.com/Takuzen
+- https://github.com/raisukeshirabe
+- https://github.com/AndreasLS
 
 [Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
