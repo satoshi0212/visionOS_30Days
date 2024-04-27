@@ -7,6 +7,6 @@ struct Day26App: App {
         WindowGroup() {
             ContentView()
         }.windowStyle(.plain)
-            .defaultSize(CGSize(width: 1920, height: 1920))
+            .defaultSize(CGSize(width: 920, height: 920))
     }
 }
