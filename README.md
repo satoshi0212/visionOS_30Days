@@ -58,6 +58,7 @@ Extends
 | 37 | [Multipeer Connectivity](https://x.com/shmdevelop/status/1746875646578409657?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/f9b6a908-4029-4292-805e-e114cb24016c"> |
 | 38 | [World Anchor](https://x.com/shmdevelop/status/1763361007345578332?s=20) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/8cd8544f-3cc2-4d33-8a50-2d72123982ab"> |
 | 39 | [Scene Mesh](https://x.com/shmdevelop/status/1784159361293832442) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/83cb1794-c4e6-40fa-8d16-4d50f4d4f41f"> |
+| 40 | [Bird is chasing me](https://x.com/shmdevelop/status/1791781341060804746) | <img width="600" alt="" src="https://github.com/satoshi0212/visionOS_30Days/assets/5768361/4dcc2dcf-9274-4dcf-ba29-2eb4934b5846"> |
 
 # Sponsors
 
