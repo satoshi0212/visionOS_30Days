@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6912902BF3C52600E5F538 /* Day40App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E69128F2BF3C52600E5F538 /* Day40App.swift */; };
+		8E6912922BF3C52600E5F538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912912BF3C52600E5F538 /* ContentView.swift */; };
+		8E6912942BF3C52600E5F538 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912932BF3C52600E5F538 /* ImmersiveView.swift */; };
+		8E6912962BF3C52700E5F538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912952BF3C52700E5F538 /* Assets.xcassets */; };
+		8E6912992BF3C52700E5F538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912982BF3C52700E5F538 /* Preview Assets.xcassets */; };
+		8E6912A42BF4CC6900E5F538 /* Bird.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912A22BF4CC6900E5F538 /* Bird.usdz */; };
+		8E6912A62BF4EA7F00E5F538 /* DeviceSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912A52BF4EA7F00E5F538 /* DeviceSystem.swift */; };
+		8E6912AC2BF6B0BC00E5F538 /* BirdEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912AB2BF6B0BC00E5F538 /* BirdEntity.swift */; };
+		8E6912B02BF85CA800E5F538 /* Constansts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912AF2BF85CA800E5F538 /* Constansts.swift */; };
+		8E6912B22BF8853600E5F538 /* ChaserSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6912B12BF8853600E5F538 /* ChaserSystem.swift */; };
+		8E6912B62BF89FE700E5F538 /* Bird_Call_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912B32BF89FE700E5F538 /* Bird_Call_2.wav */; };
+		8E6912B72BF89FE700E5F538 /* Bird_Call_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912B42BF89FE700E5F538 /* Bird_Call_1.wav */; };
+		8E6912B82BF89FE700E5F538 /* Bird_With_Audio.usda in Resources */ = {isa = PBXBuildFile; fileRef = 8E6912B52BF89FE700E5F538 /* Bird_With_Audio.usda */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E6912882BF3C52600E5F538 /* Day40.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day40.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E69128F2BF3C52600E5F538 /* Day40App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40App.swift; sourceTree = "<group>"; };
+		8E6912912BF3C52600E5F538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E6912932BF3C52600E5F538 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		8E6912952BF3C52700E5F538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E6912982BF3C52700E5F538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E69129A2BF3C52700E5F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6912A22BF4CC6900E5F538 /* Bird.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bird.usdz; sourceTree = "<group>"; };
+		8E6912A52BF4EA7F00E5F538 /* DeviceSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSystem.swift; sourceTree = "<group>"; };
+		8E6912AB2BF6B0BC00E5F538 /* BirdEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdEntity.swift; sourceTree = "<group>"; };
+		8E6912AF2BF85CA800E5F538 /* Constansts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constansts.swift; sourceTree = "<group>"; };
+		8E6912B12BF8853600E5F538 /* ChaserSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaserSystem.swift; sourceTree = "<group>"; };
+		8E6912B32BF89FE700E5F538 /* Bird_Call_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bird_Call_2.wav; sourceTree = "<group>"; };
+		8E6912B42BF89FE700E5F538 /* Bird_Call_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bird_Call_1.wav; sourceTree = "<group>"; };
+		8E6912B52BF89FE700E5F538 /* Bird_With_Audio.usda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bird_With_Audio.usda; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6912852BF3C52600E5F538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E69127F2BF3C52600E5F538 = {
+			isa = PBXGroup;
+			children = (
+				8E69128A2BF3C52600E5F538 /* Day40 */,
+				8E6912892BF3C52600E5F538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6912892BF3C52600E5F538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6912882BF3C52600E5F538 /* Day40.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E69128A2BF3C52600E5F538 /* Day40 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6912A32BF4CC6900E5F538 /* Resources */,
+				8E69128F2BF3C52600E5F538 /* Day40App.swift */,
+				8E6912AF2BF85CA800E5F538 /* Constansts.swift */,
+				8E6912912BF3C52600E5F538 /* ContentView.swift */,
+				8E6912932BF3C52600E5F538 /* ImmersiveView.swift */,
+				8E6912AB2BF6B0BC00E5F538 /* BirdEntity.swift */,
+				8E6912A52BF4EA7F00E5F538 /* DeviceSystem.swift */,
+				8E6912B12BF8853600E5F538 /* ChaserSystem.swift */,
+				8E6912952BF3C52700E5F538 /* Assets.xcassets */,
+				8E69129A2BF3C52700E5F538 /* Info.plist */,
+				8E6912972BF3C52700E5F538 /* Preview Content */,
+			);
+			path = Day40;
+			sourceTree = "<group>";
+		};
+		8E6912972BF3C52700E5F538 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E6912982BF3C52700E5F538 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E6912A32BF4CC6900E5F538 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E6912B42BF89FE700E5F538 /* Bird_Call_1.wav */,
+				8E6912B32BF89FE700E5F538 /* Bird_Call_2.wav */,
+				8E6912B52BF89FE700E5F538 /* Bird_With_Audio.usda */,
+				8E6912A22BF4CC6900E5F538 /* Bird.usdz */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6912872BF3C52600E5F538 /* Day40 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E69129D2BF3C52700E5F538 /* Build configuration list for PBXNativeTarget "Day40" */;
+			buildPhases = (
+				8E6912842BF3C52600E5F538 /* Sources */,
+				8E6912852BF3C52600E5F538 /* Frameworks */,
+				8E6912862BF3C52600E5F538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day40;
+			packageProductDependencies = (
+			);
+			productName = Day40;
+			productReference = 8E6912882BF3C52600E5F538 /* Day40.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6912802BF3C52600E5F538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8E6912872BF3C52600E5F538 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8E6912832BF3C52600E5F538 /* Build configuration list for PBXProject "Day40" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E69127F2BF3C52600E5F538;
+			productRefGroup = 8E6912892BF3C52600E5F538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6912872BF3C52600E5F538 /* Day40 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6912862BF3C52600E5F538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6912B72BF89FE700E5F538 /* Bird_Call_1.wav in Resources */,
+				8E6912B62BF89FE700E5F538 /* Bird_Call_2.wav in Resources */,
+				8E6912B82BF89FE700E5F538 /* Bird_With_Audio.usda in Resources */,
+				8E6912992BF3C52700E5F538 /* Preview Assets.xcassets in Resources */,
+				8E6912A42BF4CC6900E5F538 /* Bird.usdz in Resources */,
+				8E6912962BF3C52700E5F538 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6912842BF3C52600E5F538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6912B22BF8853600E5F538 /* ChaserSystem.swift in Sources */,
+				8E6912922BF3C52600E5F538 /* ContentView.swift in Sources */,
+				8E6912AC2BF6B0BC00E5F538 /* BirdEntity.swift in Sources */,
+				8E6912902BF3C52600E5F538 /* Day40App.swift in Sources */,
+				8E6912B02BF85CA800E5F538 /* Constansts.swift in Sources */,
+				8E6912942BF3C52600E5F538 /* ImmersiveView.swift in Sources */,
+				8E6912A62BF4EA7F00E5F538 /* DeviceSystem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E69129B2BF3C52700E5F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		8E69129C2BF3C52700E5F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		8E69129E2BF3C52700E5F538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day40/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.Day40;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		8E69129F2BF3C52700E5F538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day40/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.Day40;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6912832BF3C52600E5F538 /* Build configuration list for PBXProject "Day40" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E69129B2BF3C52700E5F538 /* Debug */,
+				8E69129C2BF3C52700E5F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E69129D2BF3C52700E5F538 /* Build configuration list for PBXNativeTarget "Day40" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E69129E2BF3C52700E5F538 /* Debug */,
+				8E69129F2BF3C52700E5F538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6912802BF3C52600E5F538 /* Project object */;
+}
