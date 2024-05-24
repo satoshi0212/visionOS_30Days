@@ -3,8 +3,6 @@ import RealityKit
 
 struct ContentView: View {
 
-    var viewModel: ViewModel
-
     @State private var showImmersiveSpace = false
 
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
@@ -30,5 +28,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(viewModel: ViewModel())
+    ContentView()
 }

@@ -11,7 +11,6 @@
 		8E9DD1612A82C9C800E8B32F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DD1602A82C9C800E8B32F /* ContentView.swift */; };
 		8E9DD1632A82C9C800E8B32F /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DD1622A82C9C800E8B32F /* ImmersiveView.swift */; };
 		8E9DD1682A82C9CB00E8B32F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD1672A82C9CB00E8B32F /* Preview Assets.xcassets */; };
-		8E9DD16F2A82D43200E8B32F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DD16E2A82D43200E8B32F /* ViewModel.swift */; };
 		8E9DD1722A82E12400E8B32F /* ayutthaya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DD1712A82E12400E8B32F /* ayutthaya.mp4 */; };
 		8EE7DD812A862B59004A1D14 /* Sphere.usda in Resources */ = {isa = PBXBuildFile; fileRef = 8EE7DD802A862B59004A1D14 /* Sphere.usda */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		8E9DD1602A82C9C800E8B32F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E9DD1622A82C9C800E8B32F /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		8E9DD1672A82C9CB00E8B32F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8E9DD16E2A82D43200E8B32F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8E9DD1712A82E12400E8B32F /* ayutthaya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ayutthaya.mp4; sourceTree = "<group>"; };
 		8EE7DD802A862B59004A1D14 /* Sphere.usda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sphere.usda; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +57,6 @@
 			children = (
 				8E9DD1702A82E0FD00E8B32F /* Resources */,
 				8E9DD15E2A82C9C800E8B32F /* Day24App.swift */,
-				8E9DD16E2A82D43200E8B32F /* ViewModel.swift */,
 				8E9DD1602A82C9C800E8B32F /* ContentView.swift */,
 				8E9DD1622A82C9C800E8B32F /* ImmersiveView.swift */,
 				8E9DD1662A82C9CB00E8B32F /* Preview Content */,
@@ -159,7 +156,6 @@
 			files = (
 				8E9DD1612A82C9C800E8B32F /* ContentView.swift in Sources */,
 				8E9DD15F2A82C9C800E8B32F /* Day24App.swift in Sources */,
-				8E9DD16F2A82D43200E8B32F /* ViewModel.swift in Sources */,
 				8E9DD1632A82C9C800E8B32F /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
