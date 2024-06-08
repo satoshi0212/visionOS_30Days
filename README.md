@@ -67,8 +67,8 @@ Thanks!
 - https://github.com/AkkeyLab
 - https://github.com/truedat101
 - https://github.com/Takuzen
-- https://github.com/Takuzen
 - https://github.com/raisukeshirabe
 - https://github.com/AndreasLS
+- https://github.com/ikkou
 
 [Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
