@@ -87,7 +87,7 @@ class PlaneDetectionModel {
 
             // Add a new entity to represent this plane.
             let material = UnlitMaterial(color: anchor.classification.color)
-            let planeEntity = ModelEntity(mesh: .generatePlane(width: anchor.geometry.extent.width, depth: anchor.geometry.extent.height), materials: [material])
+            let planeEntity = ModelEntity(mesh: .generatePlane(width: anchor.geometry.extent.width, height: anchor.geometry.extent.height), materials: [material])
             planeEntity.name = "plane"
             planeEntity.transform = Transform(matrix: anchor.geometry.extent.anchorFromExtentTransform)
             entity.addChild(planeEntity)
