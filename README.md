@@ -11,6 +11,8 @@ I'm submitting more for excess content.
 
 X posts: [#30_days_visionOS](https://x.com/hashtag/30_days_visionOS?f=live) 
 
+**I've started a new project, so please take a look at it too!:** https://github.com/satoshi0212/visionOS_2_30Days
+
 
 | Day | Title | - |
 |:--|:--|:--:|
