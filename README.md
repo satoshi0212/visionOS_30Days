@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/satoshi0212)
+
 Your support is greatly appreciated! :+1:
 
 If this source code is helpful, please support me by [sponsoring this repo!](https://github.com/sponsors/satoshi0212)
@@ -73,4 +75,4 @@ Thanks!
 - https://github.com/AndreasLS
 - https://github.com/ikkou
 
-[Your support is greatly appreciated! :+1:](https://github.com/sponsors/satoshi0212)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/satoshi0212)
