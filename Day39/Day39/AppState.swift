@@ -48,7 +48,7 @@ class AppState {
             case .authorizationChanged(let type, let status):
                 print("Authorization type \(type) changed to \(status)")
             default:
-                print("An unknown event occured \(event)")
+                print("An unknown event occurred \(event)")
             }
         }
     }
